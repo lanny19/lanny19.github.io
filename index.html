@@ -1,0 +1,243 @@
+	<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Ranga&display=swap" rel="stylesheet">
+        <link href="http://fonts.cdnfonts.com/css/akrobat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@1,500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./assets/fonts/bebas-neue/stylesheet.css" />
+        <link rel="stylesheet" type="text/css" href="./assets/fonts/PFDinDisplayPro/stylesheet.css" />
+        <link rel="stylesheet" href="./css/auth.css">
+        <script src="/js/vue.js"></script>
+        <title>Document</title>
+    </head>
+    <body>
+        
+    <div  v-cloak  id="auth">
+		<transition-group name="opacitytwo">
+			<div v-cloak v-show="page == 0" key="authwelcome" class="auth_welcome">
+				<div class="welbel">
+				<div class="auth_welcome__upimg">
+					<img class="auth_arcadius">
+				</div>
+				<div class="auth_welcome__headline">
+					<div class="auth_welcome__headline__text">Welcome on Unique Role Play</div>
+					<div class="auth_welcome__headline__line"></div>
+					<div class="auth_welcome__headline__description">Take first place in Forbes.</div>
+					<div class="auth_welcome__headline__description">Become a drug lord, police chief or the toughest fighter in the ghetto!</div>
+					<div class="auth_welcome__headline__description">Be who you want to be.</div>
+				</div>
+				<div class="auth_welcome__links">
+					<div class="auth_welcome__links__block">
+						<svg version="1.1" id="Capa_1" fill="#438cef" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							 viewBox="0 0 269.393 269.393" style="enable-background:new 0 0 269.393 269.393;" xml:space="preserve">
+						<path d="M134.696,0C60.424,0,0,60.425,0,134.696s60.424,134.696,134.696,134.696s134.696-60.425,134.696-134.696
+							S208.968,0,134.696,0z M136.869,252.518c-12.91,0-25.84-8.779-36.409-24.721c-4.421-6.669-8.316-14.428-11.614-22.979h38.351v20.879
+							c0,4.143,3.358,7.5,7.5,7.5s7.5-3.357,7.5-7.5v-20.879h42.616C173.729,233.559,156.188,252.518,136.869,252.518z M15.242,142.196
+							H39.23c2.921,11.683,12.5,20.75,24.457,22.928c1.12,8.63,2.689,16.884,4.66,24.693H28.471
+							C20.961,175.403,16.303,159.28,15.242,142.196z M142.196,17.372c13.801,2.521,26.969,14.745,37.083,34.544
+							c-3.816,3.294-6.688,7.649-8.15,12.607h-28.934V17.372z M196.607,83.585c-6.375,0-11.563-5.187-11.563-11.563
+							s5.187-11.563,11.563-11.563s11.563,5.187,11.563,11.563S202.983,83.585,196.607,83.585z M171.13,79.522
+							c3.01,10.206,11.992,17.875,22.887,18.934c1.574,9.312,2.518,18.938,2.841,28.74h-54.661V79.522H171.13z M127.196,127.196H99.257
+							c-2.597-10.386-10.455-18.707-20.568-21.958c1.209-8.956,2.981-17.578,5.238-25.716h43.269V127.196z M69.244,150.634
+							c-8.788,0-15.938-7.149-15.938-15.938s7.149-15.938,15.938-15.938s15.938,7.149,15.938,15.938S78.032,150.634,69.244,150.634z
+							 M63.697,104.267c-11.961,2.175-21.545,11.243-24.467,22.93H15.242c1.063-17.104,5.731-33.247,13.257-47.674H68.42
+							C66.401,87.448,64.81,95.734,63.697,104.267z M78.7,164.15c10.108-3.253,17.961-11.572,20.557-21.954h27.939v47.621h-43.29
+							C81.657,181.696,79.906,173.082,78.7,164.15z M142.196,189.817v-47.621h54.667c-0.576,17.011-3.092,33.174-7.111,47.621H142.196z
+							 M211.869,142.196h18.328c4.142,0,7.5-3.357,7.5-7.5s-3.358-7.5-7.5-7.5h-18.331c-0.332-10.757-1.371-21.329-3.116-31.561
+							c6.386-3.297,11.269-9.105,13.336-16.113h18.809c8.618,16.521,13.499,35.287,13.499,55.174c0,19.866-4.871,38.614-13.471,55.121
+							h-35.547C209.143,174.965,211.356,158.863,211.869,142.196z M231.602,64.522h-9.517c-3.245-11.005-13.435-19.063-25.477-19.063
+							c-1.242,0-2.463,0.092-3.66,0.258c-4.421-8.751-9.442-16.33-14.927-22.601C199.615,31.531,218.182,46.041,231.602,64.522z
+							 M127.196,15.242v49.281H88.854c3.211-8.316,6.994-15.876,11.277-22.426c2.267-3.467,1.294-8.115-2.173-10.382
+							c-3.467-2.268-8.115-1.293-10.382,2.173c-5.761,8.811-10.693,19.19-14.666,30.635H37.791
+							C58.186,36.436,90.473,17.524,127.196,15.242z M37.752,204.817H72.81c6.236,18.028,14.801,32.962,24.934,43.73
+							C73.41,240.63,52.477,225.118,37.752,204.817z M178.108,246.242c4.755-5.473,9.176-11.948,13.18-19.369
+							c3.662-6.787,6.855-14.192,9.587-22.056h30.765C218.235,223.299,199.686,237.815,178.108,246.242z"/>
+						<g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+						<a>ragemp.pro</a>
+					</div>
+					<div class="auth_welcome__links__block">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="#438cef" viewBox="0 0 245 240"><path d="M104.4 103.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1.1-6.1-4.5-11.1-10.2-11.1zM140.9 103.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1s-4.5-11.1-10.2-11.1z"/><path d="M189.5 20h-134C44.2 20 35 29.2 35 40.6v135.2c0 11.4 9.2 20.6 20.5 20.6h113.4l-5.3-18.5 12.8 11.9 12.1 11.2 21.5 19V40.6c0-11.4-9.2-20.6-20.5-20.6zm-38.6 130.6s-3.6-4.3-6.6-8.1c13.1-3.7 18.1-11.9 18.1-11.9-4.1 2.7-8 4.6-11.5 5.9-5 2.1-9.8 3.5-14.5 4.3-9.6 1.8-18.4 1.3-25.9-.1-5.7-1.1-10.6-2.7-14.7-4.3-2.3-.9-4.8-2-7.3-3.4-.3-.2-.6-.3-.9-.5-.2-.1-.3-.2-.4-.3-1.8-1-2.8-1.7-2.8-1.7s4.8 8 17.5 11.8c-3 3.8-6.7 8.3-6.7 8.3-22.1-.7-30.5-15.2-30.5-15.2 0-32.2 14.4-58.3 14.4-58.3 14.4-10.8 28.1-10.5 28.1-10.5l1 1.2c-18 5.2-26.3 13.1-26.3 13.1s2.2-1.2 5.9-2.9c10.7-4.7 19.2-6 22.7-6.3.6-.1 1.1-.2 1.7-.2 6.1-.8 13-1 20.2-.2 9.5 1.1 19.7 3.9 30.1 9.6 0 0-7.9-7.5-24.9-12.7l1.4-1.6s13.7-.3 28.1 10.5c0 0 14.4 26.1 14.4 58.3 0 0-8.5 14.5-30.6 15.2z"/></svg>
+						<a>discord.gg/edAJjWN</a>
+					</div>
+				</div>
+				<div @click="changePage(1)" class="auth_welcome__btnstart"><div class="auth_line"></div>Play</div>
+				<div class="auth_welcome__help"></div>
+				<div class="auth_welcome__background"></div>
+			</div>
+			</div>
+		</transition-group>
+		<transition-group name="opacitytwo">
+			<div v-cloak v-show="page == 2" key="authdata" class="auth_data">
+				<form class="reg1" id="reg-form" action="" method="POST">
+					<div class="auth_data__upimg">
+						<img src="./assets/images/auth/arcadius.png" class="auth_arcadius">
+					</div>
+					<div class="auth_data__headline">
+						<div class="auth_data__headline__text">CREATE ACCOUNT</div>
+						<div class="auth_data__headline__line"></div>
+					</div>
+					<div style="margin-top: 18vw;" class="auth_data__inputblock">
+						<div class="auth_data__inputblock__icon">
+							<svg version="1.1" fill="#fff" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							 viewBox="0 0 334.5 334.5" style="enable-background:new 0 0 334.5 334.5;" xml:space="preserve">
+							<path d="M332.797,13.699c-1.489-1.306-3.608-1.609-5.404-0.776L2.893,163.695c-1.747,0.812-2.872,2.555-2.893,4.481
+							s1.067,3.693,2.797,4.542l91.833,45.068c1.684,0.827,3.692,0.64,5.196-0.484l89.287-66.734l-70.094,72.1
+							c-1,1.029-1.51,2.438-1.4,3.868l6.979,90.889c0.155,2.014,1.505,3.736,3.424,4.367c0.513,0.168,1.04,0.25,1.561,0.25
+							c1.429,0,2.819-0.613,3.786-1.733l48.742-56.482l60.255,28.79c1.308,0.625,2.822,0.651,4.151,0.073
+							c1.329-0.579,2.341-1.705,2.775-3.087L334.27,18.956C334.864,17.066,334.285,15.005,332.797,13.699z"/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+							</svg>
+						</div>
+						<input class="auth_data__inputs__block" placeholder="Email" type="email" v-model="email" required>
+					</div>
+					<div class="auth_data__inputblock">
+						<div class="auth_data__inputblock__icon">
+							<svg fill="#fff" viewBox="-42 0 512 512.002" xmlns="http://www.w3.org/2000/svg"><path d="m210.351562 246.632812c33.882813 0 63.222657-12.152343 87.195313-36.128906 23.972656-23.972656 36.125-53.304687 36.125-87.191406 0-33.875-12.152344-63.210938-36.128906-87.191406-23.976563-23.96875-53.3125-36.121094-87.191407-36.121094-33.886718 0-63.21875 12.152344-87.191406 36.125s-36.128906 53.308594-36.128906 87.1875c0 33.886719 12.15625 63.222656 36.132812 87.195312 23.976563 23.96875 53.3125 36.125 87.1875 36.125zm0 0"/><path d="m426.128906 393.703125c-.691406-9.976563-2.089844-20.859375-4.148437-32.351563-2.078125-11.578124-4.753907-22.523437-7.957031-32.527343-3.308594-10.339844-7.808594-20.550781-13.371094-30.335938-5.773438-10.15625-12.554688-19-20.164063-26.277343-7.957031-7.613282-17.699219-13.734376-28.964843-18.199219-11.226563-4.441407-23.667969-6.691407-36.976563-6.691407-5.226563 0-10.28125 2.144532-20.042969 8.5-6.007812 3.917969-13.035156 8.449219-20.878906 13.460938-6.707031 4.273438-15.792969 8.277344-27.015625 11.902344-10.949219 3.542968-22.066406 5.339844-33.039063 5.339844-10.972656 0-22.085937-1.796876-33.046874-5.339844-11.210938-3.621094-20.296876-7.625-26.996094-11.898438-7.769532-4.964844-14.800782-9.496094-20.898438-13.46875-9.75-6.355468-14.808594-8.5-20.035156-8.5-13.3125 0-25.75 2.253906-36.972656 6.699219-11.257813 4.457031-21.003906 10.578125-28.96875 18.199219-7.605469 7.28125-14.390625 16.121094-20.15625 26.273437-5.558594 9.785157-10.058594 19.992188-13.371094 30.339844-3.199219 10.003906-5.875 20.945313-7.953125 32.523437-2.058594 11.476563-3.457031 22.363282-4.148437 32.363282-.679688 9.796875-1.023438 19.964844-1.023438 30.234375 0 26.726562 8.496094 48.363281 25.25 64.320312 16.546875 15.746094 38.441406 23.734375 65.066406 23.734375h246.53125c26.625 0 48.511719-7.984375 65.0625-23.734375 16.757813-15.945312 25.253906-37.585937 25.253906-64.324219-.003906-10.316406-.351562-20.492187-1.035156-30.242187zm0 0"/></svg>
+						</div>
+						<input class="auth_data__inputs__block" type="text" placeholder="Login" v-model="login" required>
+					</div>
+					<div class="auth_data__inputblock">
+						<div class="auth_data__inputblock__icon">
+							<svg version="1.1" fill="#fff" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							 viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;" xml:space="preserve">
+						<g id="XMLID_486_">
+							<path id="XMLID_487_" d="M165,330c63.411,0,115-51.589,115-115c0-29.771-11.373-56.936-30-77.379V85c0-46.869-38.131-85-85-85
+								S80.001,38.131,80.001,85v52.619C61.373,158.064,50,185.229,50,215C50,278.411,101.589,330,165,330z M180,219.986V240
+								c0,8.284-6.716,15-15,15s-15-6.716-15-15v-20.014c-6.068-4.565-10-11.824-10-19.986c0-13.785,11.215-25,25-25s25,11.215,25,25
+								C190,208.162,186.068,215.421,180,219.986z M110.001,85c0-30.327,24.673-55,54.999-55c30.327,0,55,24.673,55,55v29.029
+								C203.652,105.088,184.91,100,165,100c-19.909,0-38.651,5.088-54.999,14.028V85z"/></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+							</svg>
+						</div>
+						<input class="auth_data__inputs__block" placeholder="Password" type="password" v-model="password" required>
+					</div>
+					<div class="auth_data__inputblock">
+						<div class="auth_data__inputblock__icon">
+							<svg version="1.1" fill="#fff" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							 viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;" xml:space="preserve">
+						<g id="XMLID_486_">
+							<path id="XMLID_487_" d="M165,330c63.411,0,115-51.589,115-115c0-29.771-11.373-56.936-30-77.379V85c0-46.869-38.131-85-85-85
+								S80.001,38.131,80.001,85v52.619C61.373,158.064,50,185.229,50,215C50,278.411,101.589,330,165,330z M180,219.986V240
+								c0,8.284-6.716,15-15,15s-15-6.716-15-15v-20.014c-6.068-4.565-10-11.824-10-19.986c0-13.785,11.215-25,25-25s25,11.215,25,25
+								C190,208.162,186.068,215.421,180,219.986z M110.001,85c0-30.327,24.673-55,54.999-55c30.327,0,55,24.673,55,55v29.029
+								C203.652,105.088,184.91,100,165,100c-19.909,0-38.651,5.088-54.999,14.028V85z"/></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+							</svg>
+						</div>
+						<input class="auth_data__inputs__block" type="text" placeholder="Password" id="new-user__pw-repeat-id" v-model="password2" required>
+					</div>
+					<div @click="registration()" class="auth_data__btnenter"><div class="auth_line"></div>SIGN UP</div>
+					<div @click="changePage(1)" class="auth_data__help">Do you have acc already?</div>
+					<div style="height: 82%;" class="auth_data__background"></div>
+				</form>
+			</div>
+		</transition-group>
+		<transition-group name="opacitythree">
+			<div v-cloak v-show="page == 1" key="authdatas" class="auth_data">
+				<form class="at1" id="auth-form" action="" method="POST">
+					<div class="auth_data__upimg">
+						<img src="./assets/images/auth/arcadius.png" class="auth_arcadius">
+					</div>
+					<div class="auth_data__headline">
+						<div class="auth_data__headline__text">SIGN IN</div>
+						<div class="auth_data__headline__line"></div>
+					</div>
+					<div style="margin-top: 18vw;" class="auth_data__inputblock">
+						<div class="auth_data__inputblock__icon">
+							<svg fill="#fff" viewBox="-42 0 512 512.002" xmlns="http://www.w3.org/2000/svg"><path d="m210.351562 246.632812c33.882813 0 63.222657-12.152343 87.195313-36.128906 23.972656-23.972656 36.125-53.304687 36.125-87.191406 0-33.875-12.152344-63.210938-36.128906-87.191406-23.976563-23.96875-53.3125-36.121094-87.191407-36.121094-33.886718 0-63.21875 12.152344-87.191406 36.125s-36.128906 53.308594-36.128906 87.1875c0 33.886719 12.15625 63.222656 36.132812 87.195312 23.976563 23.96875 53.3125 36.125 87.1875 36.125zm0 0"/><path d="m426.128906 393.703125c-.691406-9.976563-2.089844-20.859375-4.148437-32.351563-2.078125-11.578124-4.753907-22.523437-7.957031-32.527343-3.308594-10.339844-7.808594-20.550781-13.371094-30.335938-5.773438-10.15625-12.554688-19-20.164063-26.277343-7.957031-7.613282-17.699219-13.734376-28.964843-18.199219-11.226563-4.441407-23.667969-6.691407-36.976563-6.691407-5.226563 0-10.28125 2.144532-20.042969 8.5-6.007812 3.917969-13.035156 8.449219-20.878906 13.460938-6.707031 4.273438-15.792969 8.277344-27.015625 11.902344-10.949219 3.542968-22.066406 5.339844-33.039063 5.339844-10.972656 0-22.085937-1.796876-33.046874-5.339844-11.210938-3.621094-20.296876-7.625-26.996094-11.898438-7.769532-4.964844-14.800782-9.496094-20.898438-13.46875-9.75-6.355468-14.808594-8.5-20.035156-8.5-13.3125 0-25.75 2.253906-36.972656 6.699219-11.257813 4.457031-21.003906 10.578125-28.96875 18.199219-7.605469 7.28125-14.390625 16.121094-20.15625 26.273437-5.558594 9.785157-10.058594 19.992188-13.371094 30.339844-3.199219 10.003906-5.875 20.945313-7.953125 32.523437-2.058594 11.476563-3.457031 22.363282-4.148437 32.363282-.679688 9.796875-1.023438 19.964844-1.023438 30.234375 0 26.726562 8.496094 48.363281 25.25 64.320312 16.546875 15.746094 38.441406 23.734375 65.066406 23.734375h246.53125c26.625 0 48.511719-7.984375 65.0625-23.734375 16.757813-15.945312 25.253906-37.585937 25.253906-64.324219-.003906-10.316406-.351562-20.492187-1.035156-30.242187zm0 0"/></svg>
+						</div>
+						<input class="auth_data__inputs__block" placeholder="Login" type="text" v-model="login" required>
+					</div>
+					<div class="auth_data__inputblock">
+						<div class="auth_data__inputblock__icon">
+							<svg version="1.1" fill="#fff" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							 viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;" xml:space="preserve">
+						<g id="XMLID_486_">
+							<path id="XMLID_487_" d="M165,330c63.411,0,115-51.589,115-115c0-29.771-11.373-56.936-30-77.379V85c0-46.869-38.131-85-85-85
+								S80.001,38.131,80.001,85v52.619C61.373,158.064,50,185.229,50,215C50,278.411,101.589,330,165,330z M180,219.986V240
+								c0,8.284-6.716,15-15,15s-15-6.716-15-15v-20.014c-6.068-4.565-10-11.824-10-19.986c0-13.785,11.215-25,25-25s25,11.215,25,25
+								C190,208.162,186.068,215.421,180,219.986z M110.001,85c0-30.327,24.673-55,54.999-55c30.327,0,55,24.673,55,55v29.029
+								C203.652,105.088,184.91,100,165,100c-19.909,0-38.651,5.088-54.999,14.028V85z"/></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+							</svg>
+						</div>
+						<input class="auth_data__inputs__block" placeholder="Password" type="password" v-model="password" required>
+					</div>
+					<div class="auth_data__tryes">password <b>{{tryes}} attempts </b> left</div>
+					<div style="margin-top: 1vw;" @click="play()" class="auth_data__btnenter"><div class="auth_line"></div>SIGN IN</div>
+					<div @click="changePage(2)" style="text-align: left; left: 6.5vw;" class="auth_data__help">Create Account</div>
+					<div @click="changePage(3)" style="text-align: left; left: 12.5vw" class="auth_data__help">Forget Password?</div>
+					<div style="height: 74%;" class="auth_data__background"></div>
+					<img class="auth_img" src="img/gtaonline-highlife-artwork-png-8896-1600.png" alt="">
+				</form>
+			</div>
+		</transition-group>
+		<transition-group name="opacitytwo">
+			<div v-cloak v-show="page == 3" key="authdatas" class="auth_data">
+				<form class="forget1" id="auth-form" action="" method="POST">
+					<div class="auth_data__upimg">
+						<img src="./assets/images/auth/arcadius.png" class="auth_arcadius">
+					</div>
+					<div class="auth_data__headline">
+						<div class="auth_data__headline__text">Password recovery</div>
+						<div class="auth_data__headline__line"></div>
+					</div>
+					<div v-show="!restoreActive" style="margin-top: 18vw;" class="auth_data__inputblock">
+						<div class="auth_data__inputblock__icon">
+							<svg fill="#fff" viewBox="-42 0 512 512.002" xmlns="http://www.w3.org/2000/svg"><path d="m210.351562 246.632812c33.882813 0 63.222657-12.152343 87.195313-36.128906 23.972656-23.972656 36.125-53.304687 36.125-87.191406 0-33.875-12.152344-63.210938-36.128906-87.191406-23.976563-23.96875-53.3125-36.121094-87.191407-36.121094-33.886718 0-63.21875 12.152344-87.191406 36.125s-36.128906 53.308594-36.128906 87.1875c0 33.886719 12.15625 63.222656 36.132812 87.195312 23.976563 23.96875 53.3125 36.125 87.1875 36.125zm0 0"/><path d="m426.128906 393.703125c-.691406-9.976563-2.089844-20.859375-4.148437-32.351563-2.078125-11.578124-4.753907-22.523437-7.957031-32.527343-3.308594-10.339844-7.808594-20.550781-13.371094-30.335938-5.773438-10.15625-12.554688-19-20.164063-26.277343-7.957031-7.613282-17.699219-13.734376-28.964843-18.199219-11.226563-4.441407-23.667969-6.691407-36.976563-6.691407-5.226563 0-10.28125 2.144532-20.042969 8.5-6.007812 3.917969-13.035156 8.449219-20.878906 13.460938-6.707031 4.273438-15.792969 8.277344-27.015625 11.902344-10.949219 3.542968-22.066406 5.339844-33.039063 5.339844-10.972656 0-22.085937-1.796876-33.046874-5.339844-11.210938-3.621094-20.296876-7.625-26.996094-11.898438-7.769532-4.964844-14.800782-9.496094-20.898438-13.46875-9.75-6.355468-14.808594-8.5-20.035156-8.5-13.3125 0-25.75 2.253906-36.972656 6.699219-11.257813 4.457031-21.003906 10.578125-28.96875 18.199219-7.605469 7.28125-14.390625 16.121094-20.15625 26.273437-5.558594 9.785157-10.058594 19.992188-13.371094 30.339844-3.199219 10.003906-5.875 20.945313-7.953125 32.523437-2.058594 11.476563-3.457031 22.363282-4.148437 32.363282-.679688 9.796875-1.023438 19.964844-1.023438 30.234375 0 26.726562 8.496094 48.363281 25.25 64.320312 16.546875 15.746094 38.441406 23.734375 65.066406 23.734375h246.53125c26.625 0 48.511719-7.984375 65.0625-23.734375 16.757813-15.945312 25.253906-37.585937 25.253906-64.324219-.003906-10.316406-.351562-20.492187-1.035156-30.242187zm0 0"/></svg>
+						</div>
+						<input class="auth_data__inputs__block" placeholder="Login" type="text" v-model="login" required>
+					</div>
+					<div v-show="restoreActive" style="margin-top: 18vw;" class="auth_data__inputblock">
+						<div class="auth_data__inputblock__icon">
+							<svg version="1.1" fill="#fff" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							 viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;" xml:space="preserve">
+						<g id="XMLID_486_">
+							<path id="XMLID_487_" d="M165,330c63.411,0,115-51.589,115-115c0-29.771-11.373-56.936-30-77.379V85c0-46.869-38.131-85-85-85
+								S80.001,38.131,80.001,85v52.619C61.373,158.064,50,185.229,50,215C50,278.411,101.589,330,165,330z M180,219.986V240
+								c0,8.284-6.716,15-15,15s-15-6.716-15-15v-20.014c-6.068-4.565-10-11.824-10-19.986c0-13.785,11.215-25,25-25s25,11.215,25,25
+								C190,208.162,186.068,215.421,180,219.986z M110.001,85c0-30.327,24.673-55,54.999-55c30.327,0,55,24.673,55,55v29.029
+								C203.652,105.088,184.91,100,165,100c-19.909,0-38.651,5.088-54.999,14.028V85z"/></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+							</svg>
+						</div>
+						<input class="auth_data__inputs__block" placeholder="Код из письма" type="password" v-model="password" required>
+					</div>
+					<div v-if="!restoreActive" @click="restore('1')" style="margin-top: 2vw;" class="auth_data__btnenter"><div class="auth_line"></div>Submit Code</div>
+					<div v-if="restoreActive" @click="restore('2')" style="margin-top: 2w;" class="auth_data__btnenter"><div class="auth_line"></div>Restore</div>
+					<div @click="changePage(1)" class="auth_data__help">Remembered the password?</div>
+					<div style="height: 74%;" class="auth_data__background"></div>
+				</form>
+			</div>
+<!-- character selector	</transition-group>
+		<transition-group name="opacitytwo">
+			<div v-cloak key="modal" v-show="page == 4" class="auth_slots__modal">
+				<div class="auth_slots__modal__spawnlist">
+					<div class="auth_slots__modal__spawnlist__block">
+						<img src="./assets/images/auth/spawn.png" class="auth_home">	
+						<span>Место выхода</span>
+						<p style="bottom: 2.7vw">После выбора вы появитесь на точке последнего выхода</p>
+						<div @click="selectSpawn(0)" class="auth_slots__modal__spawnlist__block__btnspawn">Появиться</div>
+					</div>
+					<div class="auth_slots__modal__spawnlist__block">
+						<div class="disable" v-if="!respawn.isHome"></div>
+						<img src="./assets/images/auth/home.png" class="auth_home">	
+						<span>Дом</span>
+						<p style="bottom: 2.7vw">После выбора вы появитесь в собственном доме</p>
+						<div @click="selectSpawn(2)" class="auth_slots__modal__spawnlist__block__btnspawn">Появиться</div>
+					</div>
+					<div class="auth_slots__modal__spawnlist__block">
+						<div class="disable" v-if="!respawn.isOrg"></div>
+						<img src="./assets/images/auth/frac.png" class="auth_home">	
+						<span>Место организации</span>
+						<p>После выбора вы появитесь на территории организации, в которой состоите</p>
+						<div @click="selectSpawn(1)" class="auth_slots__modal__spawnlist__block__btnspawn">Появиться</div>
+					</div>
+				</div>
+			</div>
+		</transition-group>
+	</div> -->
+    <script src="./js/auth.js"></script>
+        </body>
+    </html>
